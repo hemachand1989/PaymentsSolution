@@ -14,6 +14,6 @@ Demonstrates simple web app using .net core  and angular 4+ with backend as .net
 # UnitTest
 1. Used Xunit and Moq framework to write test cases
 2. Implemented testcases for paymentService only.
-#Yet to Implement
+# Yet to Implement
 1. Security layer to WEBAPI using oauth2.0 standard preferrably JWT Tokens.
 

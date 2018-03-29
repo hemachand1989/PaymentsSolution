@@ -1,0 +1,27 @@
+<h1>Payment Data</h1>
+
+<p *ngIf="!payments"><em>Loading...</em></p>
+<table class='table' *ngIf="payments">
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>AccountNo</th>
+            <th>BSB</th>
+            <th>Status</th>
+            <th>Ref Id</th>
+            <th>Amount</th>
+            <th>CreatedDate</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let payment of payments">
+            <td>{{ payment.accountName }}</td>
+            <td>{{ payment.accountNumber }}</td>
+            <td>{{ payment.bsb }}</td>
+            <td>{{ payment.status }}</td>
+            <td>{{ payment.reference }}</td>
+            <td>{{ payment.amount }}</td>
+            <td>{{ payment.createdDate }}</td>
+        </tr>
+    </tbody>
+</table>

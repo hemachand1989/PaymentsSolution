@@ -1,7 +1,7 @@
 # PaymentsSolution
 Demonstrates simple web app using .net core  and angular 4+ with backend as .net core webApi
 # FrontEnd
-1. Angular 4+ to create the font End.
+1. Used Angular 4+ to create the SPA font End.
 2. Configuration of application is through .NET Core .
 3. Execute command "dotnet run" at Payment.WebApp level to host the application on http://localhost:5000
 # BackEnd

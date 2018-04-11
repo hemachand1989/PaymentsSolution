@@ -1,5 +1,5 @@
 # PaymentsSolution
-Demonstrates simple web app using .net core  and angular 4+ with backend as .net core webApi
+Demonstrates simple web app using .net core  and angular 4+ with backend as .net core webApi . Check Screenshots for quick look(PaymentUI_Screnshots.docx).
 # FrontEnd
 1. Used Angular 4+ to create the SPA font End.
 2. Configuration of application is through .NET Core .
@@ -16,4 +16,5 @@ Demonstrates simple web app using .net core  and angular 4+ with backend as .net
 2. Implemented testcases for paymentService only.
 # Yet to Implement
 1. Security layer to WEBAPI using oauth2.0 standard preferrably JWT Tokens.
+
 
